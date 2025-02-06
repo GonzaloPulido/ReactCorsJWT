@@ -7,6 +7,7 @@ const axiosInstance = axios.create({
   mode: "cors",
   headers: {
     'Content-Type': 'application/json',
+    'Access-Control-Allow-Origin': "*",
   },
 });
 
